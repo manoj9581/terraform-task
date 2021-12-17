@@ -1,0 +1,15 @@
+subscription_id         = "XXXXXXXXXXXXXXXXXXXXXXXXXXX"
+rg_name                 = "XXXXXXXXXXXX"
+public_ip_name          = "newpublicip"
+network_interface_name  = "ntworkintfcNm"
+ip_configuration_name   = "ip_configuration_name"
+vnet_name               = "US-SCM-RND"
+subnet_name             = "Inside"
+virtual_machine_name    = "MyterraformVM"
+OsDisk_name             = "MyterraformVM_OsDisk"
+managed_disk_type       = "StandardSSD_LRS"
+vm_size                 = "Standard_DS2_v2"
+admin_username          = "azureuser"
+admin_password          = "Password1234!"
+address_space           = ["10.0.2.0/24"]
+address_space_vnt       = ["10.0.0.0/16"]
